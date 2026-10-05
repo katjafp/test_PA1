@@ -1,0 +1,10 @@
+name: Testworkflow
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  hallo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hallo"
