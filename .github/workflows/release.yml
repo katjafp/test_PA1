@@ -1,0 +1,9 @@
+name: Releaseworkflow
+on:
+  release:
+    types: [published]
+jobs:
+  hallo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Release"
