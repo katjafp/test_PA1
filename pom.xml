@@ -15,9 +15,9 @@
       <version>33.0.0-jre</version>
     </dependency>
     <dependency>
-      <groupId>de.firma.intern</groupId>
+      <groupId>de.katjafp.intern</groupId>
       <artifactId>interne-bibliothek</artifactId>
-      <version>1.0</version>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
 </project>
